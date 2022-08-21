@@ -1,0 +1,115 @@
+/* ---------- Estilo de Modificar de Producto ---------- */
+
+/* ---------- Contenedores ---------- */
+
+body {
+    background: #f1f1f1;
+}
+
+.contenedor { /* Contenedor principal */
+    width: 1200px;
+    height: 450px ;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.cabecera { /* Cabecera */
+    width: 1200px;
+    height: 50px;
+    background:#f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo { /* Cuerpo */
+    width: 1200px;
+    height: 350px;
+    background: #f1f1f1;
+}
+
+.pie {  /* Pie de página */
+    width: 1200px;
+    height: 120px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- Botones y hipervinculos ---------- */
+
+.BTC{   /* Boton salir */
+    text-decoration: none;
+    background: #2E4053;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 25px;
+    margin: 25px;
+    font-size: 20px;
+
+}
+
+.BTC:hover{
+    background: #111;
+}
+
+.BTA{ /* Boton guardar */
+    text-decoration: none;
+    padding: 25px 30px 25px 30px;
+    font-weight:bold;
+    color: #FFFFFF;
+    background: #2E4053;;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.BTA:hover{
+    background: #111;
+}
+
+.CE{
+    width: 250px;
+    height: 25px;
+}
+
+/* ---------- Titulos y Texto ---------- */
+
+h3{ /* Titulo */
+    padding: 8px 80px 8px 80px;
+    text-align: center;
+    background: #1f618d;
+    color: white;
+}
+
+/* ---------- Tabla ---------- */
+
+.lD{ /* Input */
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1f618d;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+}
+
+.TablaI{
+    float: left;
+    border-spacing: 10px;
+}
+
+.TablaD{
+    float: right;
+    border-spacing: 10px;
+}
+
+
